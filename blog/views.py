@@ -12,4 +12,4 @@ def home(request):
         'posts': posts
     }
     return render(request, 'blog/home.html', context)
-# Create your views here.
+
